@@ -7,6 +7,6 @@ a) Create set of REST API that can answer the following questions from the RAW d
 
 b) Your code should be in a github project that is linked to Google App Engine
 
-c) Your code should be in Java
+c) Your code should be in Java & using the following framework http://3wks.github.io/thundr/ 
 
 d) Once completing your project send over the URL of your App Engine project & GitHub repo
