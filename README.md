@@ -1,6 +1,6 @@
 # FOODit Test
 
-Create the set of REST API that can answer the following questions:
+Create the set of REST API's that can answer the following questions:
 
   1.	Total number of orders for each restaurant
   2.	Total amount of sales per restaurant
@@ -31,7 +31,7 @@ To simplify environment setup and allow you to jump straight into solving the te
 5. When your happy with your solution you will need to deploy it to your own appengine instance and
 test that it works. Please also push the solution to your own public github repository so we can review the code
 
-When your ready please send over the URL of your App Engine project & GitHub repository.
+When your ready please send us the urls of the created api's and the link to the projects github repository.
 
 ## Tips
 To expose the api's you can simple return a JsonView from your controller method read about views here
