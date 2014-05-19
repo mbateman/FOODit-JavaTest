@@ -4,13 +4,15 @@ Create the set of REST API's that can answer the following questions:
 
   1.	Total number of orders for each restaurant
   2.	Total amount of sales per restaurant
-  3.	The most frequently ordered meals across all restaurants
-  4.	The most frequently ordered category for each restaurant.
+  3.	The most frequently ordered meals on FOODit Platform
+  4.	The most frequently ordered category for each restaurant
 
 It is expected that you will write unit tests.
 
 Deploy the solution to your own appengine instance and provide FOODit with links to the API's in a email so we can
 test it.
+
+Your data to run the API's should be stored in Google Datastore
 
 
 ## Pre-requisites.
