@@ -1,12 +1,40 @@
-## Goal of the test
-a) Create set of REST API that can answer the following questions from the RAW data given
+# FOODit Test
+
+Create the set of REST API that can answer the following questions:
+
   1.	Total number of orders for each restaurant
-  2.	Total Amount of sales per restaurant
-  3.	The most frequently ordered meals on FOODit platform
-  4.	The most frequently ordered category of each restaurant
+  2.	Total amount of sales per restaurant
+  3.	The most frequently ordered meals across all restaurants
+  4.	The most frequently ordered category for each restaurant.
 
-b) Your code should be in a github project that is linked to Google App Engine
+It is expected that you will write unit tests.
 
-c) Your code should be in Java & using the following framework http://3wks.github.io/thundr/ 
+Deploy the solution to your own appengine instance and provide FOODit with links to the API's in a email so we can
+test it.
 
-d) Once completing your project send over the URL of your App Engine project & GitHub repo
+
+## Pre-requisites.
+The solution is to be built on the thundr framework and deployed to google appengine.
+You can read more about thundr here http://3wks.github.io/thundr/.
+
+To simplify environment setup and allow you to jump straight into solving the test questions this project is has all the dependencies for thundr and appengine.
+
+## Get started.
+1. Clone this repository https://github.com/FOODit/FOODit-JavaTest.git
+
+2. Run mvn:install to install the application
+
+3. Run mvn:appengine:devserver to start the application locally.
+
+4. Start writing the code to expose the data required in the test.
+
+5. When your happy with your solution you will need to deploy it to your own appengine instance and
+test that it works. Please also push the solution to your own public github repository so we can review the code
+
+When your ready please send over the URL of your App Engine project & GitHub repository.
+
+## Tips
+To expose the api's you can simple return a JsonView from your controller method read about views here
+http://3wks.github.io/thundr/thundr/views.html
+
+Happy coding :)
