@@ -15,7 +15,7 @@
 </head>
 <body>
 <header class="container">
-    <h1>FOODit Instructions</h1>
+    <h1>FOODit Test</h1>
 </header>
 <section class="container">
     <h2>Load Data</h2>
@@ -49,22 +49,7 @@
         <pre>{"recVersion":5,<em>"orderId":5571834598653952</em>,"easyOrderNum":1,"created":"2014-05-17T20:09:27.697+01:00","storeId":"bbqgrill","storeName":"B-B-Q Grill","totalValue":7.50,"lineItems":[{<em>"id":5</em>,"total":"7.50","unitPrice":"7.50","quantity":1,"promotion":false,"mealOptions":[]}],"status":"Collected"....</pre>
     </div>
 
-    <h3>Steps</h3>
-    <p>
-        Using this loaded example data we want you to display the following:
-
-        <ol>
-            <li>Total number of orders for each restaurant</li>
-            <li>Total Amount of sales per restaurant</li>
-            <li>The most frequently ordered meal for each restaurant. If there is more then one meal ordered most frequently, select the most recently ordered and ensure you display the name of the meal</li>
-            <li>The most frequently ordered category of each restaurant</li>
-        </ol>
-    </p>
-
-    <p>
-        A good implementation will have unit tests and be structured in a way which is easy to read. Good luck!
-    </p>
-
+    <p>Refer to the readme file for full test details.</p>
 
 
 </section>
