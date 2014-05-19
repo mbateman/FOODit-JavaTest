@@ -3,7 +3,7 @@
 Create the set of REST API's that can answer the following questions:
 
   1.	Total number of orders for each restaurant
-  2.	Total amount of sales per restaurant
+  2.	Total amount (money) of sales per restaurant
   3.	The most frequently ordered meals on FOODit Platform
   4.	The most frequently ordered category for each restaurant
 
