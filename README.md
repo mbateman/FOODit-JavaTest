@@ -10,8 +10,11 @@ Create the set of REST API's that can answer the following questions:
 The urls to match the above are below:
 
 https://foodit-metability.appspot.com/restaurant/{restaurant}/orders
+
 https://foodit-metability.appspot.com/restaurant/{restaurant}/sales
+
 https://foodit-metability.appspot.com/restaurant/mostFrequentOnFoodIt
+
 https://foodit-metability.appspot.com/restaurant/{restaurant}/mostFrequentByCategory
 
 E.g. https://foodit-metability.appspot.com/restaurant/butlersthaicafe/orders
