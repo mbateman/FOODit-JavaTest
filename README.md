@@ -7,6 +7,15 @@ Create the set of REST API's that can answer the following questions:
   3.	The most frequently ordered meals on FOODit Platform
   4.	The most frequently ordered category for each restaurant
 
+The urls to match the above are below:
+
+https://foodit-metability.appspot.com/restaurant/{restaurant}/orders
+https://foodit-metability.appspot.com/restaurant/{restaurant}/sales
+https://foodit-metability.appspot.com/restaurant/mostFrequentOnFoodIt
+https://foodit-metability.appspot.com/restaurant/{restaurant}/mostFrequentByCategory
+
+E.g. https://foodit-metability.appspot.com/restaurant/butlersthaicafe/orders
+
 It is expected that you will write unit tests.
 
 Deploy the solution to your own appengine instance and provide FOODit with links to the API's in a email so we can
